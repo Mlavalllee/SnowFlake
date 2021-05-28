@@ -1,4 +1,6 @@
-// Draw and fill Snowflakes
+// library of shape/fill functions
+
+// Draw circle
 function fill(Fill) {
     ctx.fillStyle = Fill
 }

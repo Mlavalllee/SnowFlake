@@ -1,3 +1,4 @@
+// library of Snowflake functions
 
 // call function
 Snow();
@@ -9,17 +10,7 @@ function Snow() {
     }
 }
 
-
-// Draw/ move snowflakes
-function NewSnow(InitX, InitY, InitR, InitV) {
-    return {
-        x: randomInt(0, cnv.width),
-        y: randomInt(0, cnv.height),
-        r: randomInt(3, 10),
-        v: randomDec(3, 5)
-    }
-}
-
+// draw / move snowflake
 function DrawSnow(ASnow) {
     fill("white");
     circle(ASnow.x, ASnow.y, ASnow.r, "fill");
