@@ -59,7 +59,7 @@ function Snow() {
 }
 
 function SnowSpeed() {
-    for (let i = 0; i < SnowFlake.length; i++) {
+    for (let i = 0; i < 50; i++) {
     Speed.push;
     Speed[i] = 0;
     }
